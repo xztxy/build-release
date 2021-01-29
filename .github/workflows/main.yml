@@ -6,12 +6,14 @@
 
 name: x-wrt-master=x86_64
 
-on: 
+on:
   push:
-    branches:
+    branches: 
       - master
-  schedule:
-    - cron: 0 8 * * 5
+   schedule:
+     - cron: 0 20 * * *
+  release:
+    types: [published]
 
 jobs:
   build:
