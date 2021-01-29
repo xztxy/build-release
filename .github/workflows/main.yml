@@ -17,7 +17,7 @@ on:
 
 jobs:
   build:
-    if: contains(github.event.head_commit.message, 'release:')
+    name: Build x-wrt firmware
     runs-on: ubuntu-18.04
 
     steps:
