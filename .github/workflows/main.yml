@@ -19,11 +19,6 @@ jobs:
     name: Build x-wrt firmware
     runs-on: ubuntu-18.04
 
-jobs:
-  build:
-    name: Build x-wrt firmware
-    runs-on: ubuntu-18.04
-
     steps:
     - name: Checkout
       uses: actions/checkout@main
